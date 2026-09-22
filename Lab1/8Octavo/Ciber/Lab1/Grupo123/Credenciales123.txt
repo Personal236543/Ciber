@@ -1,0 +1,41 @@
+Usuario VPN: Group123
+Contraseña VPN: M9rirdhu
+
+IP ACCESO REMOTO: 10.10.20.63
+Puerto RDP: 3389
+
+Usuario Kali: proyecto
+Contraseña Kali: proyecto
+
+IP_PfSense: 192.123.99.1
+Usuario PfSense: admin
+Contraseña PfSense: proyecto
+
+Usuario OpenVAS: proyecto
+Contraseña OpenVAS: proyecto
+
+Usuario Wazuh: admin
+Contraseña Wazuh: SecretPassword
+
+Se puede ingresar a la Kali por SSH (ssh -X proyecto@IP) o por RDP especificando explícitamente puerto indicado (10.10.20.63:3389)
+-----------------------
+CASO: UNIVERSIDAD
+-----------------------
+Acceso Web:
+  Usuario: alice  | Contraseña: alice123
+  Usuario: bob    | Contraseña: bob123
+  Usuario: carol  | Contraseña: carol123
+  Usuario: david  | Contraseña: david123
+  Usuario: eve    | Contraseña: eve123
+  Usuario: frank  | Contraseña: frank123
+  Usuario: grace  | Contraseña: grace123
+  Usuario: heidi  | Contraseña: heidi123
+  Usuario: ivan   | Contraseña: ivan123
+  Usuario: judy   | Contraseña: judy123
+
+Acceso Mail (Dominio: mail.universidad.com):
+  estudiante1@universidad.com   : estudiante1
+  jamesrodirguez@universidad.com: password
+  llopez@universidad.com        : 12345
+  admin@universidad.com         : admin
+

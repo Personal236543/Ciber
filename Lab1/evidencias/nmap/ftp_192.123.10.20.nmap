@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Thu Aug 20 16:48:25 2026 as: /usr/lib/nmap/nmap -Pn -sS -min-rate 5000 -sV --version-light -T3 --reason -oA /home/proyecto/Lab1-G23/evidencias/nmap/ftp_192.123.10.20 192.123.10.20
+Nmap scan report for 192.123.10.20
+Host is up, received user-set (0.00048s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE REASON         VERSION
+21/tcp open  ftp     syn-ack ttl 63 vsftpd 3.0.3
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 8.4p1 Debian 5+deb11u7 (protocol 2.0)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 20 16:48:32 2026 -- 1 IP address (1 host up) scanned in 6.96 seconds

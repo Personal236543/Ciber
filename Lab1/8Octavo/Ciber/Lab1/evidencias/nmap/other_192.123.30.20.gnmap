@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sat Aug 22 17:40:12 2026 as: /usr/lib/nmap/nmap -Pn -n -sS -sV --version-light -T3 --reason -oA /home/proyecto/Lab1-G23/evidencias/nmap/other_192.123.30.20 192.123.30.20
+Host: 192.123.30.20 ()	Status: Up
+Host: 192.123.30.20 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.13 (Ubuntu Linux; protocol 2.0)/, 25/open/tcp//smtp//Postfix smtpd/, 80/open/tcp//http//nginx 1.18.0 (Ubuntu)/, 8080/open/tcp//http//nginx 1.18.0 (Ubuntu)/	Ignored State: closed (996)
+# Nmap done at Sat Aug 22 17:40:18 2026 -- 1 IP address (1 host up) scanned in 6.31 seconds

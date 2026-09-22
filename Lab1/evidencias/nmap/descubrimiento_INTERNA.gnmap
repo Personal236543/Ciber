@@ -1,0 +1,7 @@
+# Nmap 7.95 scan initiated Sat Aug 22 17:41:08 2026 as: /usr/lib/nmap/nmap -sn -n -oA /home/proyecto/Lab1-G23/evidencias/nmap/descubrimiento_INTERNA 192.123.20.0/24
+Host: 192.123.20.1 ()	Status: Up
+Host: 192.123.20.10 ()	Status: Up
+Host: 192.123.20.40 ()	Status: Up
+Host: 192.123.20.41 ()	Status: Up
+Host: 192.123.20.42 ()	Status: Up
+# Nmap done at Sat Aug 22 17:41:12 2026 -- 256 IP addresses (5 hosts up) scanned in 3.77 seconds

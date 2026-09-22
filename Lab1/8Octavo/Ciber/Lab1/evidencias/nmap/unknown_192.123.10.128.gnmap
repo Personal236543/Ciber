@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Thu Aug 20 19:50:38 2026 as: /usr/lib/nmap/nmap -Pn -n -sS -sV --version-light -T3 --reason -oA /home/proyecto/Lab1-G23/evidencias/nmap/unknown_192.123.10.128 192.123.10.128
+Host: 192.123.10.128 ()	Status: Up
+Host: 192.123.10.128 ()	Ports: 	Ignored State: closed (1000)
+# Nmap done at Thu Aug 20 19:50:38 2026 -- 1 IP address (1 host up) scanned in 0.27 seconds

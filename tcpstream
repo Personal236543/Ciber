@@ -1,0 +1,44 @@
+.....SHOW DATABSES
+.....(.#42000You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATABSES' at line 1
+.....SHOW DATABSES
+.....(.#42000You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DATABSES' at line 1
+.....SHOW DATABASES
+.....6....def..SCHEMATA.schemata.Database.Database.-.................."......information_schema.....mysql.....performance_schema.....sys.....universidad...	...".
+.....SELECT DATABASE()
+..... ....def...
+DATABASE()..-..................................
+.....universidad
+........@.......universidad
+.....show databases
+.....6....def..SCHEMATA.schemata.Database.Database.-.................."......information_schema.....mysql.....performance_schema.....sys.....universidad...	...".
+.....show tables
+.....L....def..TABLES.tables.Tables_in_universidad.Tables_in_universidad.-.........................forum_posts.....grades	....students.....users.........
+
+....forum_posts.
+=....def.universidad.forum_posts.forum_posts.id.id.?.......B....0F....def.universidad.forum_posts.forum_posts.user_id.user_id.?.......@....F....def.universidad.forum_posts.forum_posts.content.content.-............L....def.universidad.forum_posts.forum_posts
+created_at
+created_at.?.....................
+.....grades.
+3....def.universidad.grades.grades.id.id.?.......B....0B....def.universidad.grades.grades
+student_id
+student_id.?.......@....<....def.universidad.grades.grades.subject.subject.-............8....def.universidad.grades.grades.grade.grade.?.....................
+
+....students.
+7....def.universidad.students.students.id.id.?.......B....0@....def.universidad.students.students.user_id.user_id.?.......@....D....def.universidad.students.students	full_name	full_name.-............>....def.universidad.students.students.career.career.-.....................
+.....users.
+1....def.universidad.users.users.id.id.?.......B....0<....def.universidad.users.users.username.username.-.......P....<....def.universidad.users.users.password.password.-............;....def.universidad.users.users.role.role.-.$..........student@....def.universidad.users.users
+created_at
+created_at.?.....................
+.....SHOW TABLES
+.....L....def..TABLES.tables.Tables_in_universidad.Tables_in_universidad.-.........................forum_posts.....grades	....students.....users.........
+.....SELECT * FROM students LIMIT 5
+.....5....def.universidad.students.students.id.id.?.......B...?....def.universidad.students.students.user_id.user_id.?.......@...C....def.universidad.students.students	full_name	full_name.-...........=....def.universidad.students.students.career.career.-..................".,....1.1.Alicia S..nchez.Ingenier..a de Sistemas.....2.4.David P..rez.Medicina...	.3.5
+Eva G..mez.Arquitectura...
+.4.7.Gracia Fern..ndez.Derecho+....5.8.Heidi Castillo.Ingenier..a de Sistemas.......".
+.....SELECT * FROM users LIMIT 5
+...../....def.universidad.users.users.id.id.?.......B...;....def.universidad.users.users.username.username.-.......P...;....def.universidad.users.users.password.password.-...........3....def.universidad.users.users.role.role.-.$.........?....def.universidad.users.users
+created_at
+created_at.?..................".E....1.alice 7abdccbea8473767e91378e37850d296.student.2026-08-07 23:38:15E..	.2.bob 2acba7f51acfd4fd5102ad090fc612ee	professor.2026-08-07 23:38:15C..
+.3.carol 35d9b8a73dad4919a46dfed32701f481.admin.2026-08-07 23:38:15E....4.david 55fc5b709962876903785fd64a6961e5.student.2026-08-07 23:38:15C....5.eve 7a8a900ed78ded2820a0e706b4a6de57.student.2026-08-07 23:38:15...
+...".
+.....

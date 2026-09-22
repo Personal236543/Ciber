@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Sat Aug 22 17:41:27 2026 as: /usr/lib/nmap/nmap -sn -n -oA /home/proyecto/Lab1-G23/evidencias/nmap/descubrimiento_ADICIONAL 192.123.30.0/24 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -sn -n -oA /home/proyecto/Lab1-G23/evidencias/nmap/descubrimiento_ADICIONAL 192.123.30.0/24" start="1787438487" startstr="Sat Aug 22 17:41:27 2026" version="7.95" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<host><status state="up" reason="echo-reply" reason_ttl="64"/>
+<address addr="192.123.30.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="249" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.123.30.10" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="724" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.123.30.11" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="729" rttvar="2830" to="100000"/>
+</host>
+<host><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="192.123.30.20" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<times srtt="570" rttvar="3807" to="100000"/>
+</host>
+<runstats><finished time="1787438491" timestr="Sat Aug 22 17:41:31 2026" summary="Nmap done at Sat Aug 22 17:41:31 2026; 256 IP addresses (4 hosts up) scanned in 4.09 seconds" elapsed="4.09" exit="success"/><hosts up="4" down="252" total="256"/>
+</runstats>
+</nmaprun>

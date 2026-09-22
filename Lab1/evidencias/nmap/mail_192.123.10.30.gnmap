@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Thu Aug 20 18:37:48 2026 as: /usr/lib/nmap/nmap -Pn -sS -min-rate 5000 -sV --version-light -T3 --reason -oA /home/proyecto/Lab1-G23/evidencias/nmap/mail_192.123.10.30 192.123.10.30
+Host: 192.123.10.30 ()	Status: Up
+Host: 192.123.10.30 ()	Ports: 25/open/tcp//smtp//Postfix smtpd/, 143/open/tcp//imap//Dovecot imapd/, 465/open/tcp//smtp//Postfix smtpd/, 587/open/tcp//smtp//Postfix smtpd/	Ignored State: closed (996)
+# Nmap done at Thu Aug 20 18:38:21 2026 -- 1 IP address (1 host up) scanned in 32.97 seconds

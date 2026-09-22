@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sat Aug 22 17:39:17 2026 as: /usr/lib/nmap/nmap -Pn -n -sS -sV --version-light -T3 --reason -oA /home/proyecto/Lab1-G23/evidencias/nmap/web_192.123.10.10 192.123.10.10
+Host: 192.123.10.10 ()	Status: Up
+Host: 192.123.10.10 ()	Ports: 22/open/tcp//ssh//OpenSSH 9.9 (protocol 2.0)/, 80/open/tcp//http//nginx 1.26.3/, 9000/open/tcp//cslistener?///	Ignored State: closed (997)
+# Nmap done at Sat Aug 22 17:39:27 2026 -- 1 IP address (1 host up) scanned in 10.31 seconds
