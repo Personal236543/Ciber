@@ -1,4 +1,0 @@
-# Nmap 7.95 scan initiated Thu Aug 20 16:48:25 2026 as: /usr/lib/nmap/nmap -Pn -sS -min-rate 5000 -sV --version-light -T3 --reason -oA /home/proyecto/Lab1-G23/evidencias/nmap/ftp_192.123.10.20 192.123.10.20
-Host: 192.123.10.20 ()	Status: Up
-Host: 192.123.10.20 ()	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u7 (protocol 2.0)/	Ignored State: closed (998)
-# Nmap done at Thu Aug 20 16:48:32 2026 -- 1 IP address (1 host up) scanned in 6.96 seconds

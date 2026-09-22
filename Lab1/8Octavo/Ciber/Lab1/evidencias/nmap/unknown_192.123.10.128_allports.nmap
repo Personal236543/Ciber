@@ -1,7 +1,0 @@
-# Nmap 7.95 scan initiated Sat Aug 22 17:40:24 2026 as: /usr/lib/nmap/nmap -Pn -n -sS -p- -T3 --reason -oA /home/proyecto/Lab1-G23/evidencias/nmap/unknown_192.123.10.128_allports 192.123.10.128
-Nmap scan report for 192.123.10.128
-Host is up, received user-set (0.00025s latency).
-All 65535 scanned ports on 192.123.10.128 are in ignored states.
-Not shown: 65535 closed tcp ports (reset)
-
-# Nmap done at Sat Aug 22 17:40:25 2026 -- 1 IP address (1 host up) scanned in 1.66 seconds

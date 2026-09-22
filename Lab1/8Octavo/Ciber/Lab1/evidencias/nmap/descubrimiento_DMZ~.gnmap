@@ -1,6 +1,0 @@
-# Nmap 7.95 scan initiated Thu Aug 20 16:27:06 2026 as: /usr/lib/nmap/nmap -sn -oA /home/proyecto/Lab1-G23/evidencias/nmap/descubrimiento_DMZ~ 192.123.10.0/24
-Host: 192.123.10.1 ()	Status: Up
-Host: 192.123.10.20 ()	Status: Up
-Host: 192.123.10.30 ()	Status: Up
-Host: 192.123.10.128 ()	Status: Up
-# Nmap done at Thu Aug 20 16:27:17 2026 -- 256 IP addresses (4 hosts up) scanned in 10.47 seconds
