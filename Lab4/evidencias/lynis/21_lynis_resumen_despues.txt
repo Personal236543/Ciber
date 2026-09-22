@@ -1,0 +1,4 @@
+== HARDENING INDEX DESPUES ==
+  [0;36mHardening index[0m : [1;37m69[0m [[1;33m#############[0m       ]
+== WARNINGS DESPUES ==
+warning[]=AUTH-9308|No password set for single mode|-|-|

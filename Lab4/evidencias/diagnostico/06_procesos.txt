@@ -1,0 +1,27 @@
+== ps aux (procesos) ==
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 167356 10700 ?        Ss   Aug21   0:08 /usr/sbin/init
+root          27  0.0  0.0  35764 11636 ?        S<s  Aug21   0:01 /lib/systemd/systemd-journald
+systemd+      50  0.0  0.0  25360 13888 ?        Ss   Aug21   0:02 /lib/systemd/systemd-resolved
+systemd+      51  0.0  0.0  90896  7680 ?        Ssl  Aug21   0:03 /lib/systemd/systemd-timesyncd
+message+      59  0.0  0.0   7280  4420 ?        Ss   Aug21   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root          63  0.0  0.0  17364  7804 ?        Ss   Aug21   0:03 /lib/systemd/systemd-logind
+root          76  0.0  0.0  12196  7384 ?        Ss   Aug21   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root          83  0.0  0.1 105156 20652 ?        Ssl  Aug21   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root          85  0.0  0.0  51220  2200 ?        Ss   Aug21   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data      86  0.0  0.0  51548  4532 ?        S    Aug21   0:07 nginx: worker process
+www-data      87  0.0  0.0  51548  4020 ?        S    Aug21   0:00 nginx: worker process
+www-data      88  0.0  0.0  51548  4048 ?        S    Aug21   0:00 nginx: worker process
+www-data      89  0.0  0.0  51548  4048 ?        S    Aug21   0:00 nginx: worker process
+root         679  0.0  0.0  38076  4696 ?        Ss   Aug21   0:10 /usr/lib/postfix/sbin/master -w
+postfix      681  0.0  0.0  38156  6020 ?        S    Aug21   0:02 qmgr -l -t unix -u
+root        1039  0.0  0.0 232736  7212 ?        Ssl  Aug21   0:00 /usr/lib/policykit-1/polkitd --no-debug
+postfix     1698  0.0  0.0  41908  9072 ?        S    Aug22   0:00 tlsmgr -l -t unix -u -c
+postfix    16442  0.0  0.0  38104  5824 ?        S    16:48   0:00 pickup -l -t unix -u -c
+root       16558  0.0  0.0  13164  8524 ?        Ss   17:28   0:00 sshd: root@pts/0
+root       16561  0.0  0.0  18824  9416 ?        Ss   17:28   0:00 /lib/systemd/systemd --user
+root       16562  0.0  0.0 168308  4212 ?        S    17:28   0:00 (sd-pam)
+root       16577  0.0  0.0   6000  3972 pts/0    Ss   17:28   0:00 -bash
+root       16675  0.0  0.0   6000  2336 pts/0    S+   18:17   0:00 -bash
+root       16676  0.0  0.0   4276  1904 pts/0    S+   18:17   0:00 tee 06_procesos.txt
+root       16677  0.0  0.0   7652  3348 pts/0    R+   18:17   0:00 ps aux

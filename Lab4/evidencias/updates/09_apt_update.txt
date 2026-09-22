@@ -1,0 +1,5 @@
+Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://archive.ubuntu.com/ubuntu focal-updates InRelease [128 kB]
+Get:4 http://archive.ubuntu.com/ubuntu focal-backports InRelease [128 kB]
+Fetched 383 kB in 2s (225 kB/s)
+Reading package lists...

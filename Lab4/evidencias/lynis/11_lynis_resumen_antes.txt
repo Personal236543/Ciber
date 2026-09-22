@@ -1,0 +1,55 @@
+== HARDENING INDEX (ANTES) ==
+  [0;36mHardening index[0m : [1;37m58[0m [[1;33m###########[0m         ]
+== WARNINGS ==
+warning[]=AUTH-9308|No password set for single mode|-|-|
+warning[]=MAIL-8818|Found some information disclosure in SMTP banner (OS or software name)|-|-|
+warning[]=FIRE-4512|iptables module(s) loaded, but no rules active|-|-|
+== SUGGESTIONS ==
+suggestion[]=LYNIS|This release is more than 4 months old. Consider upgrading|-|-|
+suggestion[]=CUST-0280|Install libpam-tmpdir to set $TMP and $TMPDIR for PAM sessions|-|-|
+suggestion[]=CUST-0285|Install libpam-usb to enable multi-factor authentication for PAM sessions|-|-|
+suggestion[]=CUST-0810|Install apt-listbugs to display a list of critical bugs prior to each APT installation.|-|-|
+suggestion[]=CUST-0811|Install apt-listchanges to display any significant changes prior to any upgrade via APT.|-|-|
+suggestion[]=CUST-0830|Install debian-goodies so that you can run checkrestart after upgrades to determine which services are using old versions of libraries and need restarting.|-|-|
+suggestion[]=CUST-0831|Install needrestart, alternatively to debian-goodies, so that you can run needrestart after upgrades to determine which daemons are using old versions of libraries and need restarting.|-|-|
+suggestion[]=CUST-0870|Install debsecan to generate lists of vulnerabilities which affect this installation.|-|-|
+suggestion[]=CUST-0875|Install debsums for the verification of installed package files against MD5 checksums.|-|-|
+suggestion[]=DEB-0880|Install fail2ban to automatically ban hosts that commit multiple authentication errors.|-|-|
+suggestion[]=BOOT-5260|Protect rescue.service by using sulogin|-|-|
+suggestion[]=KRNL-5788|Determine why /vmlinuz is missing on this Debian/Ubuntu system.|/vmlinuz|-|
+suggestion[]=KRNL-5788|Check the output of apt-cache policy manually to determine why output is empty|-|-|
+suggestion[]=AUTH-9262|Install a PAM module for password strength testing like pam_cracklib or pam_passwdqc|-|-|
+suggestion[]=AUTH-9286|Configure minimum password age in /etc/login.defs|-|-|
+suggestion[]=AUTH-9286|Configure maximum password age in /etc/login.defs|-|-|
+suggestion[]=AUTH-9308|Set password for single user mode to minimize physical access attack surface|-|-|
+suggestion[]=AUTH-9328|Default umask in /etc/login.defs could be more strict like 027|-|-|
+suggestion[]=FILE-6310|To decrease the impact of a full /home file system, place /home on a separated partition|-|-|
+suggestion[]=FILE-6310|To decrease the impact of a full /tmp file system, place /tmp on a separated partition|-|-|
+suggestion[]=FILE-6310|To decrease the impact of a full /var file system, place /var on a separated partition|-|-|
+suggestion[]=STRG-1840|Disable drivers like USB storage when not used, to prevent unauthorized storage or data theft|-|-|
+suggestion[]=STRG-1846|Disable drivers like firewire storage when not used, to prevent unauthorized storage or data theft|-|-|
+suggestion[]=NAME-4028|Check DNS configuration for the dns domain name|-|-|
+suggestion[]=PKGS-7370|Install debsums utility for the verification of packages with known good database.|-|-|
+suggestion[]=NETW-3032|Consider running ARP monitoring software (arpwatch,arpon)|-|-|
+suggestion[]=MAIL-8818|You are advised to hide the mail_name (option: smtpd_banner) from your postfix configuration. Use postconf -e or change your main.cf file (/etc/postfix/main.cf)|-|-|
+suggestion[]=MAIL-8820:disable_vrfy_command|Disable the 'VRFY' command|disable_vrfy_command=no|text:run postconf -e disable_vrfy_command=yes to change the value|
+suggestion[]=HTTP-6710|Add HTTPS to nginx virtual hosts for enhanced protection of sensitive data and privacy|-|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|AllowTcpForwarding (YES --> NO)|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|ClientAliveCountMax (3 --> 2)|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|Compression (YES --> (DELAYED|NO))|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|LogLevel (INFO --> VERBOSE)|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|MaxAuthTries (6 --> 2)|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|MaxSessions (10 --> 2)|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|PermitRootLogin (YES --> NO)|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|Port (22 --> )|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|TCPKeepAlive (YES --> NO)|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|X11Forwarding (YES --> NO)|-|
+suggestion[]=SSH-7408|Consider hardening SSH configuration|AllowAgentForwarding (YES --> NO)|-|
+suggestion[]=BANN-7126|Add a legal banner to /etc/issue, to warn unauthorized users|-|-|
+suggestion[]=BANN-7130|Add legal banner to /etc/issue.net, to warn unauthorized users|-|-|
+suggestion[]=ACCT-9622|Enable process accounting|-|-|
+suggestion[]=ACCT-9626|Enable sysstat to collect accounting (no results)|-|-|
+suggestion[]=ACCT-9628|Enable auditd to collect audit information|-|-|
+suggestion[]=TOOL-5002|Determine if automation tools are present for system management|-|-|
+suggestion[]=KRNL-6000|One or more sysctl values differ from the scan profile and could be tweaked||Change sysctl value or disable test (skip-test=KRNL-6000:<sysctl-key>)|
+suggestion[]=HRDN-7230|Harden the system by installing at least one malware scanner, to perform periodic file system scans|-|Install a tool like rkhunter, chkrootkit, OSSEC|

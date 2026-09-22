@@ -1,0 +1,9 @@
+== paquetes actualizables ==
+Listing...
+apt/focal-updates 2.0.11 amd64 [upgradable from: 2.0.10]
+libapt-pkg6.0/focal-updates 2.0.11 amd64 [upgradable from: 2.0.10]
+== total pendientes ==
+2
+== apt-show-versions -u ==
+apt:amd64/focal-updates 2.0.10 upgradeable to 2.0.11
+libapt-pkg6.0:amd64/focal-updates 2.0.10 upgradeable to 2.0.11

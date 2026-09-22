@@ -1,0 +1,92 @@
+Start timestamp: 2026-09-22 20:01:49 +0000 (AIDE 0.16.1)
+AIDE found differences between database and filesystem!!
+Verbose level: 6
+
+Summary:
+  Total number of entries:	17311
+  Added entries:		6
+  Removed entries:		3
+  Changed entries:		4
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f++++++++++++++++: /etc/aide_demo.txt
+f++++++++++++++++: /root/.bash_history
+f++++++++++++++++: /root/lab4/aide/23_aide_demo.txt
+f++++++++++++++++: /run/systemd/sessions/8551
+p++++++++++++++++: /run/systemd/sessions/8551.ref
+l++++++++++++++++: /run/systemd/units/invocation:session-8551.scope
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+f----------------: /run/systemd/sessions/8545
+p----------------: /run/systemd/sessions/8545.ref
+l----------------: /run/systemd/units/invocation:session-8545.scope
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d =.... mc.. .. .: /root
+d =.... mc.. .. .: /root/lab4/aide
+d =.... mc.. .. .: /run/systemd/units
+f =b... mc..C.. .: /var/log/journal/87e5b27774704085a0757b78e779c58e/system.journal
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /root
+  Mtime    : 2026-09-22 17:25:02 +0000        | 2026-09-22 20:00:57 +0000
+  Ctime    : 2026-09-22 17:25:02 +0000        | 2026-09-22 20:00:57 +0000
+
+Directory: /root/lab4/aide
+  Mtime    : 2026-09-22 19:46:49 +0000        | 2026-09-22 19:56:03 +0000
+  Ctime    : 2026-09-22 19:46:49 +0000        | 2026-09-22 19:56:03 +0000
+
+Directory: /run/systemd/units
+  Mtime    : 2026-09-22 19:50:39 +0000        | 2026-09-22 20:01:13 +0000
+  Ctime    : 2026-09-22 19:50:39 +0000        | 2026-09-22 20:01:13 +0000
+
+File: /var/log/journal/87e5b27774704085a0757b78e779c58e/system.journal
+  Bcount   : 16384                            | 16392
+  Mtime    : 2026-09-22 19:50:40 +0000        | 2026-09-22 20:01:13 +0000
+  Ctime    : 2026-09-22 19:50:40 +0000        | 2026-09-22 20:01:13 +0000
+  RMD160   : urVpt9jNolapzAzy66rznOY0GGw=     | rLmQFQ7uSVPs2jwpibRMikQzHVo=
+  TIGER    : Vs1mFQZgUC20xMR50yga+U90Jw9fIcGL | v/c6rFkSj3nTkCw99TDSrr0N5HzoU/D9
+  SHA256   : 16kB9qyEzToJbvRnYjOGXP375sJANoiZ | 49nGB73TNE4OoGJkKkX37z/mQE+nWb7B
+             GtnX02iuoSU=                     | SH4iluh2Tss=
+  SHA512   : /WhS6jeZoqfpsKkFxEfizsbRmbWP6TzO | 05YygfGnKaiDMMaC+YQVt0GFTj25RQqT
+             ia3k4XRWL6yolI0zvjZCC6/Cm26q2Jz5 | wNRGYRbUXfbgBTIxuTZ9dIUwXGWAk8GP
+             amLhOcQfzsnZurQ7IIyUew==         | CkY7KWGwOy+/phBFDWwA0A==
+  CRC32    : 0FQOwQ==                         | dGspaA==
+  HAVAL    : 2ucRkr11Pba/3RK14y7hfEH2ra1dAHsD | ZNTizjtRK9r6TpAc6kZ50q2aPfWPDCTw
+             tJpcqeBiBEw=                     | ln3wL8R643w=
+  GOST     : ziCAc2+IFFZQmDUWE87B+e/2JrI0KCLe | iGa7iKTw7RxU5KYIMcL4A7+YqmPDU1pT
+             X+DLHzQJUUc=                     | hAM2QlJWb5w=
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db
+  RMD160   : VVuF41WXYJj5PUbnIbgfLuP91Ts=
+  TIGER    : gnGVT4ChL43hNORt7xW60i24KC2jsv6G
+  SHA256   : nhZ/IO0jEGi1T7V2Hh8wNYKNThDZeOly
+             jYk4tq7F4F4=
+  SHA512   : p/0Cgad2sJLxVW/AizscAk9HEGPB9Ev6
+             pKe/uy75pKUJ+QUL2bIDh0apVUQMV0E7
+             qdzb6ybLHluXsd5zCc5q/g==
+  CRC32    : Bcj26Q==
+  HAVAL    : iUKhs/7jA0zOvmf6gZZAEvWIoZMlzOqZ
+             bnukXuM118w=
+  GOST     : Iv1WY5wpkcT4EyIi0O0GOa/YQ9d+6UQq
+             85zTkjQWleQ=
+
+
+End timestamp: 2026-09-22 20:02:03 +0000 (run time: 0m 14s)

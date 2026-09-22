@@ -1,0 +1,21 @@
+== config SSH efectiva (parametros clave) ==
+logingracetime 120
+maxauthtries 6
+permitrootlogin yes
+pubkeyauthentication yes
+passwordauthentication yes
+x11forwarding yes
+permitemptypasswords no
+permituserenvironment no
+
+== sshd_config (lineas activas) ==
+Include /etc/ssh/sshd_config.d/*.conf
+PermitRootLogin yes
+PasswordAuthentication yes
+ChallengeResponseAuthentication no
+UsePAM yes
+X11Forwarding yes
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem	sftp	/usr/lib/openssh/sftp-server
+PermitEmptyPasswords no

@@ -1,0 +1,4 @@
+maxauthtries 3
+permitrootlogin without-password
+passwordauthentication no
+x11forwarding no

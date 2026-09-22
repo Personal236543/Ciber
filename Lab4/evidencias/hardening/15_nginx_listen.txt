@@ -1,0 +1,4 @@
+/etc/nginx/nginx.conf:75:#		listen     localhost:110;
+/etc/nginx/nginx.conf:81:#		listen     localhost:143;
+/etc/nginx/sites-available/default:2:    listen 80;
+/etc/nginx/sites-available/default:3:    listen 8080;

@@ -1,0 +1,10 @@
+== sudo de insecureuser DESPUES ==
+(sin reglas NOPASSWD)
+== caducidad insecureuser ==
+Last password change					: Sep 22, 2026
+Password expires					: Dec 21, 2026
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 1
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7

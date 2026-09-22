@@ -1,0 +1,27 @@
+WARNING: Old db contains a entry that shouldn't be there, run --init or --update
+Start timestamp: 2026-09-22 19:50:40 +0000 (AIDE 0.16.1)
+AIDE found NO differences between database and filesystem. Looks okay!!
+Verbose level: 6
+
+Number of entries:	0
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db
+  RMD160   : RHQGJ2Ge/5NM/QvQjxaKBv7IJZQ=
+  TIGER    : ksLUgvCzQorArO5jQb+Zd8CidV4dzsah
+  SHA256   : UBF80GsqIpgwSBArKpoG7eV+Ebv3hHW8
+             89IgjIonmpw=
+  SHA512   : sRVD7/sAGOTVNZbC7w1mKzDF7PczKaiK
+             Nb2hyL5pq/pc7uBv+7KodQ92XjwgrPMA
+             1nnZtAggqB3nrs3g3N7Iow==
+  CRC32    : 2sCvcw==
+  HAVAL    : c8xRhnlkxH5U5K4DOJmlT6i7Rs7pQxuV
+             sh7eLTGYzCY=
+  GOST     : CubQv+G49XvArHPAIEyEPLZh2EvhXjNU
+             0ZIxpF0QTjE=
+
+
+End timestamp: 2026-09-22 19:50:41 +0000 (run time: 0m 1s)

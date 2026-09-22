@@ -1,0 +1,10 @@
+== umask ==
+#	UMASK		Default "umask" value.
+# UMASK is the default umask value for pam_umask and is used by
+# 022 is the "historical" value in Debian for UMASK
+# If USERGROUPS_ENAB is set to "yes", that will modify this UMASK default value
+UMASK		027
+== auditd ==
+failed
+== banner ==
+Acceso autorizado unicamente. Toda actividad es monitoreada y registrada.

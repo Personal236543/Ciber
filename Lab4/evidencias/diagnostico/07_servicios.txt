@@ -1,0 +1,44 @@
+== servicios activos ==
+  UNIT                        LOAD   ACTIVE SUB     DESCRIPTION                                             
+  dbus.service                loaded active running D-Bus System Message Bus                                
+  nginx.service               loaded active running A high performance web server and a reverse proxy server
+  polkit.service              loaded active running Authorization Manager                                   
+  postfix@-.service           loaded active running Postfix Mail Transport Agent (instance -)               
+  ssh.service                 loaded active running OpenBSD Secure Shell server                             
+  systemd-journald.service    loaded active running Journal Service                                         
+  systemd-logind.service      loaded active running Login Service                                           
+  systemd-resolved.service    loaded active running Network Name Resolution                                 
+  systemd-timesyncd.service   loaded active running Network Time Synchronization                            
+  unattended-upgrades.service loaded active running Unattended Upgrades Shutdown                            
+  user@0.service              loaded active running User Manager for UID 0                                  
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+11 loaded units listed.
+
+== servicios habilitados al arranque ==
+UNIT FILE                              STATE   VENDOR PRESET
+apparmor.service                       enabled enabled      
+auditd.service                         enabled enabled      
+dbus-org.freedesktop.resolve1.service  enabled enabled      
+dbus-org.freedesktop.timesync1.service enabled enabled      
+e2scrub_reap.service                   enabled enabled      
+nginx.service                          enabled enabled      
+ondemand.service                       enabled enabled      
+postfix.service                        enabled enabled      
+ssh.service                            enabled enabled      
+sshd.service                           enabled enabled      
+systemd-pstore.service                 enabled enabled      
+systemd-resolved.service               enabled enabled      
+systemd-timesyncd.service              enabled enabled      
+unattended-upgrades.service            enabled enabled      
+remote-fs.target                       enabled enabled      
+apt-daily-upgrade.timer                enabled enabled      
+apt-daily.timer                        enabled enabled      
+e2scrub_all.timer                      enabled enabled      
+fstrim.timer                           enabled enabled      
+motd-news.timer                        enabled enabled      
+
+20 unit files listed.
